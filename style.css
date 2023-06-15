@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(to top, rgba(102, 51, 153, 0.773), rgb(226, 12, 119));
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0.8rem;
+}
+body .container {
+  width: 92%;
+  height: 100vh;
+  background-color: red;
+}
+body .container .main {
+  background-color: antiquewhite;
+  width: 100%;
+  height: 100%;
+}
+body .container .main .side-main {
+  width: 20%;
+  height: 100%;
+  background-color: black;
+}/*# sourceMappingURL=style.css.map */
